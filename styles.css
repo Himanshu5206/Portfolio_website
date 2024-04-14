@@ -1,0 +1,155 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+ul {
+    padding: 20px;
+    border-radius: 10vh;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: normal;
+    padding-right: 100px; 
+    margin-bottom: 20px
+}
+nav ul {
+    list-style: none;
+    border-radius: 0%;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+}
+/* Form container */
+/* Form container for large displays */
+.form-container {
+    max-width: 600px; /* Increased width */
+    margin: 50px auto;
+    padding: 30px; /* Increased padding */
+    background: #f7f7f7;
+    border-radius: 10px; /* Slightly larger radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Larger shadow for depth */
+}
+
+/* Larger form elements */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin */
+    border: 2px solid #ddd; /* Thicker border */
+    border-radius: 6px; /* Slightly larger radius */
+    box-sizing: border-box;
+    font-size: 1.25rem; /* Larger font size */
+}
+
+/* Larger submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    border: none;
+    border-radius: 6px; /* Slightly larger radius */
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    font-size: 1.25rem; /* Larger font size */
+}
+
+/* Enhanced hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #3f51b5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Added shadow for effect */
+}
+
+/* Enhanced focus effect for text fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #5c6bc0;
+    box-shadow: 0 0 10px rgba(92,107,192,.5); /* Larger shadow for focus */
+}
+
+/* Larger labels */
+label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    color: #333;
+    font-size: 1.25rem; /* Larger font size */
+}
+
+/* Larger form title */
+.form-title {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    font-size: 2rem; /* Significantly larger font size */
+}
+form {
+    display: block;width: 100%;
+
+}
+/* Create two equal columns that float next to each other */
+section {
+    width: 100%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
