@@ -4,51 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio website</title>
+    <title>Portfolio website</title>
 </head>
 <body>
     <header>
         <h1>My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about me">About Me</a></li> 
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">contact Me</a></li>
-            </ul>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
         </nav>
     </header>
-    <section id="about">
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
         <article>
-            <h2>skills</h2>
-            <p>HTML,CSS , JAVASCRIPT, JAVASCRIPT, PHP AND MYSQL</p>
-            <P>C++,MS EXCEL</P>
+       <p>Myself, Himanshu kumar I am specialised in MERN stack development and proficient in building Exceptional web application</p>
+       </article>
+    </section>
+    <section id="about me">
+        <h2>About me</h2>
+        <article>
+            <h2>skills</h2> 
+            <p>Html, CSS, Javascript, Mongo DB, Express.js, Node.js, React.js</p>
         </article>
         <article>
             <h2>Extra Achievements</h2>
-            <p>Have proficient in communication skills</p>
-            <p>Have better understanding of Git and Github</p>
+            <p>participated in Level national hackathon including Smart india Hackathon</p>
+            <p>Solved 400+ DSA Question on Various Platform include Leetcode, GFG and Coding Ninzas</p>
         </article>
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <!-- Project 1 -->
+<article>
+    <div class="project-header">
+        <h3>Student Resource Tracking website</h3>
+        <a href="https://noteforge.vercel.app/" target="_blank" rel="noopener">Live link</a>
+    </div>
+    <p>
+        Developed a comprehensive solution to track assignment submissions, note-taking, and access to resources, 
+        enhancing academic efficiency for over 500+ students.
+    </p>
+</article>
         <article>
-            <h3>Cloudpoint - Api based weather application</h3>
-            <p>A weather API based application for real time weather information with additional
-                Functionalities </p>
-        </article>
-        <!-- Project 2 -->
-        <article>
-            <h3>EasyMed - Healthcare management system</h3>
-            <p>It is a database based portal that it able to manage the client's relational database</p>
-        </article>
-        <article>
-            <h3>Portfolio website</h3>
-            <p>it helps to showcase our skills, our extra curriculum and project skills</p>
+            <div class="project-header">
+            <h3>Ai based Resume Screening System</h3>
+            <a href="https://c2c-resume.vercel.app/" target="_blank" rel="noopener">Live Link</a>
+            </div>
+            <p> Designed and implemented an AI-powered platform to streamline hiring processes by 50% by leveraging NLP 
+models for keyword extraction and skill matching against job descriptions.</p>
         </article>
     </section>
-    <div class="form-container">
-        <h2 class="form-title">Contact Me</h2>
+    <div class="form-container" id="contact">
+        <h2 class="form-title">Contact</h2>
         <form>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
@@ -63,7 +74,7 @@
         </form>
     </div>
         <footer>
-        <p>© 2024 My Portfolio</p>
+        <p>© 2025 My Portfolio website</p>
     </footer>
     <script src="script.js"></script>
 </body>
