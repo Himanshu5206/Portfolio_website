@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,13 @@ body {
     padding: 20px;
 }
 
-header {
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
     background: #333;
     color: #fff;
     padding: 20px 0;
@@ -24,6 +29,7 @@ header h1 {
     padding: 10px 0;
     text-align: center;
 }
+
 ul {
     padding: 20px;
     border-radius: 10vh;
@@ -74,8 +80,7 @@ footer {
         margin: 0;
     }
 }
-/* Form container */
-/* Form container for large displays */
+
 .form-container {
     max-width: 600px; /* Increased width */
     margin: 50px auto;
@@ -140,10 +145,11 @@ label {
     font-size: 2rem; /* Significantly larger font size */
 }
 form {
-    display: block;width: 100%;
+    display: block;
+    width: 100%;
 
 }
-/* Create two equal columns that float next to each other */
+
 section {
     width: 100%;
     padding: 40px;
